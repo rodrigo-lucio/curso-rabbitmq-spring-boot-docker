@@ -3,8 +3,7 @@ package com.spring.producer.dto;
 public class Message {
     private String text;
 
-    public Message(String text) {
-        this.text = text;
+    public Message() {
     }
 
     public String getText() {
