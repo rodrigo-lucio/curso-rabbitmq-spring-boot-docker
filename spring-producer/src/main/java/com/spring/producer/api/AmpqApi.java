@@ -15,7 +15,6 @@ public class AmpqApi {
     @ResponseStatus(HttpStatus.ACCEPTED)
     @PostMapping("/send")
     public void sendToConsumer(@RequestBody Message message){
-        System.out.println("dasdasds");
         ampqService.sendToConsumer(message);
     }
 }
