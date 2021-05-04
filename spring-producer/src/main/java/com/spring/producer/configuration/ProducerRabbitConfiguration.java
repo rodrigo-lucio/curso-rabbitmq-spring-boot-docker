@@ -36,7 +36,7 @@ public class ProducerRabbitConfiguration {
     @Bean
     Queue queue(){
         Map<String, Object> args = new HashMap<>();
-        args.put("x-dead-letter-exchenge", exchange);
+        args.put("x-dead-letter-exchange", exchange);
         args.put("x-dead-letter-routing-key", deadLetter);
         return new Queue(queue, true, false, false, args);
     }
