@@ -12,4 +12,4 @@ spring:
       routing-key:
         producer: rk.producer.aula-spring
       deadletter:   # mensagens que deram erro ficarao aqui para o reprocessamento
-        producer: rk.producer.aula-spring
+        producer: dl.producer.aula-spring
