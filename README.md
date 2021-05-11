@@ -1,4 +1,4 @@
-## 💻 Curso: RabbitMQ com SpringBoot e Docker
+## 💻 Curso: RabbitMQ com Spring Boot e Docker
 - Código desenvolvido durante o curso "RabbitMQ com SpringBoot e Docker" da Udemy	
 ## :books: Conteúdos
 - RabbitMQ com Docker
