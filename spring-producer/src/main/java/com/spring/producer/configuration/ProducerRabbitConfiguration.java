@@ -50,6 +50,6 @@ public class ProducerRabbitConfiguration {
     @Bean
     public Binding bindingDeadLetter(){
         return BindingBuilder.bind(deadletter())
-                .to(exchange()).with(deadLetter);
+                .to(exchange()).with(deadLetter);   
     }
 }
