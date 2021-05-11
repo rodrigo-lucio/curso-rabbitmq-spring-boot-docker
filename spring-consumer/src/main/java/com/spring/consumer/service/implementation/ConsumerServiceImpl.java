@@ -8,6 +8,6 @@ import org.springframework.stereotype.Service;
 public class ConsumerServiceImpl implements ConsumerService {
     @Override
     public void action(Message message) {
-        System.out.println("Consumer " + message.getText());
+        System.out.println("Mensagem consumida: " + message.toString());
     }
 }
